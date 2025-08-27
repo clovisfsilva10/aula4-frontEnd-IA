@@ -1,0 +1,17 @@
+h1{
+    color: #8f18a7;
+    text-align: center;
+       
+}
+.botao {
+    width: 100px;
+    height: 50px;
+    background-color: white;
+    color: #f1d03b;
+    transition: background-color 1s ease; /* Anima a mudança da cor de fundo */
+  }
+
+  .botao:hover {
+    background-color: rgb(109, 3, 248); /* Altera a cor ao passar o mouse */
+  }
+/*comentario em css*/
