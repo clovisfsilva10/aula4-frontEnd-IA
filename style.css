@@ -1,0 +1,265 @@
+#container{
+    width: 95%;
+    max-width: 980px;
+    height: auto;
+    margin: 0 auto;
+    }
+
+header#topo{
+    width: 100%;
+    height: 84px;
+    background-color:#731702 ;
+    
+    }
+
+#logo{
+    width: 204px;
+    height: 84px;
+    margin: 20px auto;
+    }
+
+nav#menu{
+    width: 100%;
+    height: 40px;
+    background-color: #F27405;
+    float: left;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 20px; 
+    }  
+
+nav#menu a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    margin: 0 15px;
+    }
+
+nav#menu a:hover{
+    transition: 0.5s;
+    color: #A62103;
+    font-weight: bold; 
+    }
+    
+#banner{
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    height: 100%;
+    } 
+
+.responsive-banner {
+    width: 100%;
+    max-width: 100%; 
+    height: 100%; 
+    }
+
+div#anunciotablet{
+    float: left;
+    width: 100%;
+    height: 90px;
+    background-color: #F27405;
+    text-align: center;
+    line-height: 90px;
+    color: #fff;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    font-size: 30px;
+    display: none; /* Oculto O ANUNCIO por padrão */
+    }
+
+article#conteudo{
+    width: 45%;
+    height: auto;
+    float: left; 
+    }
+    
+aside#lateral{
+    width: 45%;
+    height: auto;
+    float: right;
+    }
+
+aside#esquerd0{
+    width: 35%;
+    height: auto;
+    float: right;
+    }
+
+aside#direito{
+    width: 35%;
+    height: auto;
+    float: right;
+    }
+
+footer#rodape{
+    width: 100%;
+    height: 60px;
+    background-color: #731702;
+    clear: both;
+    text-align: center;
+    line-height: 60px;
+    color: #fff;
+    margin-top: 10px ;
+    border-radius: 5px;
+    }
+
+article#conteudo1{
+    width: 60%;
+    height: center;
+    float: left; 
+    margin-bottom: 10px;
+    }
+
+article#conteudo1 form{
+    margin-bottom: 20px; input[type="text"]{
+        width: 80%;
+        height: 30px;
+        margin-bottom: 10px;
+        border-radius: 5px;
+        border: #ccc 1px solid;
+        padding: 5px;
+        background-color: aqua;
+        }
+    }
+article#conteudo1 form{
+    margin-bottom: 20px; input[type="email"]{
+        width: 30%;
+        height: 40px;
+        background-color: #F27405;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        font-size: 18px;
+        font-weight: bold;
+        cursor: pointer;
+        background-color: rgb(200, 255, 0);
+        }
+    }
+
+article#conteudo1 form{
+    margin-bottom: 20px; input[type="mensagem"]{
+        width: 30%;
+        height: 40px;
+        background-color: #F27405;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        font-size: 18px;
+        font-weight: bold;
+        cursor: pointer;
+        background-color: rgb(212, 35, 88);
+        }
+    }
+
+
+div#teste{
+    width: 100%;
+    height: auto;  
+    margin-bottom: 20px; 
+    float: right;
+    background-color: #0593f2;
+   
+    }
+
+frame#f1{
+    width: 49%;
+    height: auto;  
+    margin-bottom: 20px; 
+    float: left;
+    background-color: #0593f2;
+    }   
+frame#f2{
+    width: 49%;
+    height: auto;  
+    margin-bottom: 20px; 
+    float: right;
+    background-color: #0593f2;
+    }   
+
+
+#v1{   
+    width: 48%;
+    height: right;
+    float: left;
+    border-radius: 15px;
+    margin: 5px;
+    padding:0,5%;
+    
+    }
+
+#v2{   
+    width: 48%;
+    height: right;
+    float: right;
+    border-radius: 15px;
+    margin: 5px;
+    }
+
+aside#mapa{
+    width: 35%;
+    height: auto;
+    float: right;
+    margin-bottom: 20px;
+    }
+
+    div#animacao{
+        width: 100%;
+        height: 500px;  
+        margin-bottom: 20px; 
+        float: left;
+        background-color: #0593f2;
+       
+        }
+    section#teste1{
+        width: 400px;
+        height: 450px;  
+        margin-bottom: 20px; 
+        float: left;
+        background-color: #eef205;
+       
+        }
+   section#teste2{
+            width: 400px;
+            height: 450px;  
+            margin-bottom: 20px; 
+            float: right;
+            background-color: #f25005;
+           
+    }
+
+@media screen  and (min-width: 600px) and (max-width: 800px) {
+
+    div#aunciotablet{
+        display: block; /* Mostra o ANUNCIO em telas menores */
+    }
+    }
+
+@media screen and (max-width: 569px) {
+
+    nav#menu{
+        margin: 0 auto 15px auto;
+    }  
+    }
+
+@media screen and (max-width: 380px) {
+    nav#menu{
+        height: auto;
+    }
+    nav#menu a{
+        display: block;
+        margin: 5px 0;
+        border-bottom: #fff 1px solid;
+    }
+    nav#menu a:last-child{
+        border: none;
+        
+    }
+    figure#banner{
+       display: none;
+    }
+    }
+    
